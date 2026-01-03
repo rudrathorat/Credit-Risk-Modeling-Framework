@@ -1,0 +1,46 @@
+
+Credit Risk Modeling and Decision Framework - Analysis Report
+============================================================
+
+MODEL PERFORMANCE
+------------------------------------------------------------
+Best Model: logistic_regression
+ROC-AUC: 0.7779
+Gini Coefficient: 0.5557
+KS Statistic: 0.4429
+
+CLASSIFICATION METRICS
+------------------------------------------------------------
+Precision: 0.6154
+Recall: 0.4000
+F1-Score: 0.4848
+Accuracy: 0.7450
+
+DECISION DISTRIBUTION
+------------------------------------------------------------
+decision
+Approve                    101
+Reject                      59
+Approve with Conditions     40
+
+RISK BAND ANALYSIS
+------------------------------------------------------------
+risk_band  count  avg_score  min_score  max_score  default_rate  total_defaults  cumulative_default_rate
+   Band_1     40   0.058800   0.009248   0.093137         0.050               2                 0.050000
+   Band_2     40   0.136792   0.097816   0.186606         0.150               6                 0.100000
+   Band_3     40   0.250272   0.189773   0.322657         0.275              11                 0.158333
+   Band_4     40   0.402966   0.324217   0.496842         0.400              16                 0.218750
+   Band_5     40   0.633044   0.499252   0.814152         0.625              25                 0.300000
+
+MONITORING
+------------------------------------------------------------
+Status: Alert
+PSI: 0.0702
+
+FILES GENERATED
+------------------------------------------------------------
+- results/predictions.csv
+- results/metrics.json
+- results/risk_bands.csv
+- results/feature_importance.csv
+- results/report.txt
