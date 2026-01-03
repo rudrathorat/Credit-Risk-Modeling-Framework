@@ -1,6 +1,6 @@
 # Credit Risk Modeling and Decision Framework
 
-Production-ready credit risk assessment system implementing industry-standard practices for consumer lending platforms.
+Production ready credit risk assessment system implementing industry standard practices for consumer lending platforms.
 
 ## Overview
 
